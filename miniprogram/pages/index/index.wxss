@@ -1,0 +1,13 @@
+/**index.wxss**/
+@import "../lib/weui.wxss";
+
+.container {
+  margin-top: 120rpx;
+}
+.weui-cell_input {
+  padding: 10rpx;
+}
+
+.page-section {
+  margin-bottom: 20rpx;
+}

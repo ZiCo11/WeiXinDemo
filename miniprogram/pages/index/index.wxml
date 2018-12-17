@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input bindinput='username' class="weui-input" auto-focus placeholder="请输入用户名"/>
+    </view>
+    <view>
+      <input class="weui-input" bindinput='password' auto-focus placeholder="请输入密码" type='password'/>
+    </view>
+    <view>
+      <button
+      type="primary"
+      size="{{primarySize}}"
+      loading="{{loading}}"
+      plain="{{plain}}"
+      disabled="{{disabled}}"
+      bindtap="primary"
+      bindtap='clickme'
+    >
+      登录
+    </button>
+    </view>
+  </view>  
+</view>
