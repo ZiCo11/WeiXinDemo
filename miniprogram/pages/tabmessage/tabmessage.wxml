@@ -1,0 +1,4 @@
+<!--pages/tabmessage/tabmessage.wxml-->
+<view>
+  <text>这里是tabmessage</text>
+</view>

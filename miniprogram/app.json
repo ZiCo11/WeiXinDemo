@@ -1,12 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib"
+    "pages/tabbar/tabbar",
+    "pages/tabmessage/tabmessage"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -14,5 +10,19 @@
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "可瑞视-迈瑞",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/tabbar/tabbar",
+      "text": "首页",
+      "iconPath": "pages/tabbar/img/home.png",
+      "selectedIconPath":"pages/tabbar/img/home_selected.png"
+    },
+    {
+      "pagePath": "pages/tabmessage/tabmessage",
+      "text": "消息" ,
+      "iconPath": "pages/tabmessage/img/message.png",
+      "selectedIconPath":"pages/tabmessage/img/message_selected.png"
+    }]
   }
 }

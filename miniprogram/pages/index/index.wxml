@@ -9,12 +9,22 @@
     </view>
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell weui-cell_input">
-        <input bindinput='username' class="weui-input" focus='true' placeholder="用户名"placeholder-class="center"/>
+        <input 
+        bindinput='username' 
+        class="weui-input" 
+        focus='true' 
+        placeholder="用户名"
+        placeholder-class="center"/>
       </view>
     </view>  
     <view class="weui-cells weui-cells_after-title" >
       <view class="weui-cell weui-cell_input">
-        <input class="weui-input" bindinput='password' placeholder="密码" type='password'placeholder-class="center"/>
+        <input 
+        class="weui-input"
+        bindinput='password' 
+        placeholder="密码" 
+        type='password'
+        placeholder-class="center"/>
       </view>
     </view>
      <button

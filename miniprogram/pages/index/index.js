@@ -84,12 +84,18 @@ Page({
         'content-type': 'application/json' // 默认值
       },
       success(res) {
-        wx.setStorage({
-          key: 'key',
-          data: res.data,
-        })
+        if(res){
+          wx.setStorage({
+            key: 'key',
+            data: res.data,
+          });
+          wx.reLaunch({
+            url: '../tabbar/tabbar'
+          })
+        }
         console.log(res.data.data)
       },
     });
-  }
+  },
+ 
 })
