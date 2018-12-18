@@ -11,8 +11,8 @@
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "微信小程序Demo",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "可瑞视-迈瑞",
     "navigationBarTextStyle": "black"
   }
 }
