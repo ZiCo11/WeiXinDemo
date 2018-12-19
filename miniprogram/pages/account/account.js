@@ -5,20 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
+    username: ''
+  },
 
-  },
-  clickme(){
-    wx.scanCode({
-      success(res){
-        console.log(res)
-      }
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('我是tabmessage，启动成功')
+    // wx.getStorage({
+    //   key:'key',
+    //   success(res) {
+    //     // this.setData({ username: res.data.username })
+    //     console.log(res.data)
+    //   },
+    // })
+    try {
+      const value = wx.getStorageSync('key')
+      if (value) {
+        // Do something with return value
+        console.log(value.data.username)
+        this.setData({ username: value.data.username })
+      }
+    } catch (e) {
+      // Do something when catch error
+      console.log(e)
+    }
+    console.log('我是account,启动成功')
   },
 
   /**

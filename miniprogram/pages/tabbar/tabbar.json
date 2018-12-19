@@ -1,1 +1,6 @@
-{}
+{
+  "pages": [
+    "pages/tabbar/tabbar"
+  ],
+  "navigationBarTitleText": "智能家居-环境监测"
+}

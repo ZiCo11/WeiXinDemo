@@ -1,0 +1,3 @@
+<view class='box'>
+  <text class='user'>用户名:{{username}}</text>
+</view>

@@ -89,13 +89,12 @@ Page({
             key: 'key',
             data: res.data,
           });
-          wx.reLaunch({
-            url: '../tabbar/tabbar'
-          })
         }
-        console.log(res.data.data)
       },
     });
+    wx.reLaunch({
+      url: '../tabbar/tabbar'
+    })
   },
  
 })

@@ -1,0 +1,48 @@
+.common{
+  position:        relative;
+  height:          90px;
+  color:           white;
+}
+.topLeft{
+  position:  absolute;
+  top:       7px;
+  left:      5px;
+  font-size: 17px;
+}
+.midRight{
+  position:  absolute;
+  top:       5px;
+  right:     10px;
+  font-size: 50px;
+}
+.bottomLeft{
+  position:  absolute;
+  bottom:    7px;
+  left:      5px;
+  font-size: 11px;
+  color:   whitesmoke
+}
+.wrapper-one{
+  border:             1px solid transparent;
+  border-radius:      5px;
+  margin:             10px 10px;
+  background-color: rgba(48, 217, 247, 0.911);
+}
+.wrapper-two{
+  border:             1px solid transparent;
+  border-radius:      5px;
+  margin:             10px 10px;
+  background-color: orange;
+}
+.wrapper-three{
+  border:             1px solid transparent;
+  border-radius:      5px;
+  margin:             10px 10px;
+  background-color: tomato;
+}
+.wrapper-four{
+  border:             1px solid transparent;
+  border-radius:      5px;
+  margin:             10px 10px;
+  background-color: rgba(42, 231, 105, 0.658);
+}

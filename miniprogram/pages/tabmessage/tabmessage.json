@@ -1,1 +1,6 @@
-{}
+{
+  "pages": [
+    "pages/tabmessage/tabmessage"
+  ],
+  "navigationBarTitleText": "智能家居-扫描二维码"
+}

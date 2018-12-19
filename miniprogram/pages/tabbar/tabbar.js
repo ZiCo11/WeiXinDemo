@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    monitorType: ['PM2.5','甲醛','氢硫化物'],
+    bedroom: '卧室',
+    livingroom: '客厅',
+    restroom: '卫生间',
+    numberOne: 96,
+    numberTwo: 134,
+    numberThree: 0.034,
+    numberFour: 0.002
   },
 
   /**

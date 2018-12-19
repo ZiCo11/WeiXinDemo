@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/tabbar/tabbar",
-    "pages/tabmessage/tabmessage"
+    "pages/tabmessage/tabmessage",
+    "pages/history/history",
+    "pages/account/account"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -12,6 +14,7 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar":{
+    "position": "bottom",
     "list": [{
       "pagePath": "pages/tabbar/tabbar",
       "text": "首页",
@@ -19,10 +22,22 @@
       "selectedIconPath":"pages/tabbar/img/home_selected.png"
     },
     {
+      "pagePath": "pages/history/history",
+      "text": "历史",
+      "iconPath": "pages/history/img/history.png",
+      "selectedIconPath": "pages/history/img/history_selected.png"
+    },
+    {
       "pagePath": "pages/tabmessage/tabmessage",
       "text": "消息" ,
       "iconPath": "pages/tabmessage/img/message.png",
       "selectedIconPath":"pages/tabmessage/img/message_selected.png"
+    },
+    {
+      "pagePath": "pages/account/account",
+      "text": "账户",
+      "iconPath": "pages/account/img/account.png",
+      "selectedIconPath": "pages/account/img/account_selected.png"
     }]
   }
 }

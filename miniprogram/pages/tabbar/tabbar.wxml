@@ -1,3 +1,30 @@
 <view>
-  <text>这里是tabbar首页</text>
+  <view class='wrapper-one'>
+    <view class='common'>
+      <text class='topLeft'>{{monitorType[0]}}</text>
+      <text class='midRight'>{{numberOne}}</text>
+      <text class='bottomLeft'>探测点：{{livingroom}}</text>
+    </view>
+  </view>
+  <view class='wrapper-two'>
+    <view class='common'>
+      <text class='topLeft'>{{monitorType[0]}}</text>
+      <text class='midRight'>{{numberTwo}}</text>
+      <text class='bottomLeft'>监测点：{{bedroom}}</text>
+    </view>
+  </view>
+  <view class='wrapper-three'>
+    <view class='common'>
+      <text class='topLeft'>{{monitorType[1]}}</text>
+      <text class='midRight'>{{numberThree}}</text>
+      <text class='bottomLeft'>监测点：{{restroom}}</text>
+    </view>
+  </view>
+  <view class='wrapper-four'>
+    <view class='common'>
+      <text class='topLeft'>{{monitorType[2]}}</text>
+      <text class='midRight'>{{numberFour}}</text>
+      <text class='bottomLeft'>监测点：{{livingroom}}</text>
+    </view>
+  </view>
 </view>

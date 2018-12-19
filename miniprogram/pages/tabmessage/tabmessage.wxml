@@ -1,4 +1,4 @@
 <!--pages/tabmessage/tabmessage.wxml-->
 <view>
-  <text>这里是tabmessage</text>
+  <button bindtap='clickme'>点我唤起扫码</button>
 </view>
