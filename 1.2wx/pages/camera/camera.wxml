@@ -1,0 +1,6 @@
+<!--pages/camera/camera.wxml-->
+ <!-- 拍照 -->
+  <view>
+    <image style='width:100%' src='{{src}}'></image>
+    <button type='primary' bindtap='takePicture'>拍照</button>
+  </view>

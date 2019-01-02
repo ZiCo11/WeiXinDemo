@@ -1,0 +1,18 @@
+/* pages/index/index.wxss */
+.navBox{
+  /* display: flex; */
+  /* justify-content: space-between;
+  align-items: center; */
+  white-space: nowrap;
+}
+.navBox view{
+  /* flex-direction: column; */
+  display: inline-block;
+  width:150rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+.navBox view.active{
+  color:red;
+}

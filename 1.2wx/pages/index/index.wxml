@@ -1,0 +1,21 @@
+<!--pages/index/index.wxml-->
+<!-- <view class='pay_view' > -->
+<!-- 滑动滚动 循环 条件 -->
+  <scroll-view scroll-x='{{true}}'>
+    <view class='navBox'>
+      <view wx:key="{{index}}" wx:for='{{arr}}' 
+            class="{{index==now?'active':' '}}"
+            bindtap='setNow'data-index="{{index}}">
+        {{item}}
+      </view>  
+    </view>
+  </scroll-view>
+  <!-- 读取服务器数据 -->
+  <view>
+    <button bindtap='fnLoad'>读取</button>
+  </view>
+ <!-- 拍照 -->
+  <view>
+    <navigator url='/pages/camera/camera'>点击拍照</navigator>
+  </view>
+<!-- </view> -->
