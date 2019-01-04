@@ -1,0 +1,62 @@
+<!--pages/market/market.wxml-->
+<!-- 搜索栏 -->
+<view class='topInput'>
+  <image class='iconInput' src='{{iconSearch}}'></image>
+  <input 
+    placeholder='请输入要搜索的商品'
+    placeholder-style='color: #bbbbb;font-size:10rpx'
+    type='text'
+    cursor-spacing='5rpx'
+    class='input'
+  >
+  </input>
+</view>
+<!-- 导航栏 -->
+<scroll-view scroll-x="{{true}}" scroll-width-animation="{true}}">
+  <view class='tags'>
+    <!-- <view > -->
+      <view 
+        wx:for='{{tags}}'
+        wx:key='{{index}}'
+        class="{{index==now?'active':''}}"
+        data-index="{{index}}"
+        bindtap='clickTags'
+      >
+        {{item}}
+      </view>
+      <view class='cur' style='left:{{left}}px;'></view>
+      <view class='iconBox'>
+         <image class='tagArrow' src='{{icon_arrow}}'></image>
+      </view>
+    <!-- </view> -->
+  </view>
+</scroll-view>
+<!-- 轮播图 -->
+<swiper
+  indicator-dots='{{indicatorDots}}'
+  autoplay='{{autoplay}}'
+  duration='{{duration}}'
+>
+  <block wx:key="{{index}}" wx:for="{{imgArr}}">
+    <swiper-item>
+      <image src='{{item}}'class='swiperImg'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!--商品特点  -->
+<view class='desBox'>
+  <!-- <view > -->
+    <image class='desIcon' src='{{desIcon}}'></image>
+    大牌制造商直供
+  <!-- </view>   -->
+  <!-- <view >
+    <image class='desIcon' src='{{desIcon}}'></image>
+    <text>大牌制造商直供</text>
+  </view>  
+  <view >
+    <image class='desIcon' src='{{desIcon}}'></image>
+    <text>大牌制造商直供</text>
+  </view>   -->
+</view>
+
+

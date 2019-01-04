@@ -1,0 +1,81 @@
+/* pages/market/market.wxss */
+.iconInput{
+  width: 50rpx;
+  height: 45rpx;
+  margin-left: 0;
+}
+.topInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68rpx;
+  /* width: 1175rpx; */
+  /* width: 1176rpx; */
+  background-color: #f4f4f4;
+  padding-left: 40rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  border-radius: 10rpx;
+}
+.input{
+  width: 100%;
+  height: 100%;
+  margin-left: 20rpx;
+}
+ .tags{
+   white-space: nowrap;
+   position: relative;
+ }
+ .tags .cur{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 120rpx;
+   height: 8rpx;
+   margin-left: 20rpx;
+   background-color: #7f4395;
+ }
+ .tags .iconBox{
+   position: absolute;
+   right: 34rpx;
+   top: 0rpx;
+   z-index: 2;
+   width: 107rpx;
+   height: 145rp;
+   background-color: linear-gradient(to left, rgba(255,255,255,1),rgba(255,255,255,0.5));
+  
+ }
+ .iconBox .tagArrow{
+   margin: 0 auto;
+   width: 40rpx;
+   height: 30rpx;
+   z-index: 2;
+ }
+ .tags view{
+   display: inline-block;
+   width: 165rpx;
+   height: 137rpx;
+   line-height: 137rpx;
+   text-align: center;
+ }
+ .tags view.active{
+   color: #7f4395;
+   font-weight: bold;
+ }
+ .swiperImg{
+   width: 100%;
+   height: 428rpx;
+ }
+ .desBox{
+   width: 100%;
+   height: 119rpx;
+   /* line-height: 119rpx; */
+   text-align: center;
+   background-color: blanchedalmond;
+ }
+ .desIcon{
+   /* flex-direction: column; */
+   width: 40rpx;
+   height: 40rpx;
+   margin-top: 40rpx;
+ }

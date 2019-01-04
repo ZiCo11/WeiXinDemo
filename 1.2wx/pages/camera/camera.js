@@ -12,15 +12,16 @@ Page({
     console.log("点击拍照成功")
     let ctx = wx.createCameraContext();
     ctx.takePhoto({
-      success: function(res){
+      quality: 'high',
+      success: (res) => {
+        this.setData({
+          src: res.tempImagePath
+        })
         console.log('成功', res)
       },
-      fail: function(error){
+      fail:(error)=> {
         console.log('拍照失败',error);
       },
-      complete:function(){
-        console.log('111');
-      }
     });
     // 获取图片
     // let that = this;

@@ -4,6 +4,7 @@
   /* justify-content: space-between;
   align-items: center; */
   white-space: nowrap;
+  background-color: red;
 }
 .navBox view{
   /* flex-direction: column; */
@@ -15,4 +16,13 @@
 }
 .navBox view.active{
   color:red;
+}
+.market{
+  margin: 50px auto;
+  background-color: blue;
+  width: 250rpx;
+  height: 50rpx;
+  text-align: center;
+  color: white;
+  border-radius: 40rpx;
 }

@@ -18,4 +18,8 @@
   <view>
     <navigator url='/pages/camera/camera'>点击拍照</navigator>
   </view>
+  <!-- 超市入口 -->
+  <view class='market'>
+    <navigator url='/pages/market/market'>超市入口</navigator>
+  </view>
 <!-- </view> -->

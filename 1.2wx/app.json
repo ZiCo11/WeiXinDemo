@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/camera/camera"
+    "pages/camera/camera",
+    "pages/market/market"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#FF0000",
     "navigationBarTitleText": "知乎",
     "navigationBarTextStyle": "black"
   }
